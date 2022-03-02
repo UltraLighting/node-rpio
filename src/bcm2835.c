@@ -31,7 +31,7 @@
 // The P1 header I2C pins are connected to SDA0 and SCL0 on V1.
 // By default I2C code is generated for the V2 RPi which has SDA1 and SCL1 connected.
 */
-/* #define I2C_V1*/
+#define I2C_V1
 
 /* Physical address and size of the peripherals block
 // May be overridden on RPi2
